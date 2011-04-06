@@ -11,3 +11,12 @@ There are some rules that Hey, Go Vote! must adhere to, in my mind, if anyone's 
 1. **Don't Ask For Information.** Lots of vote-reminder services ask for your address. This is because, in general, you have to know what house someone is in to tell which voting district they're in and you have to know which voting district they're in to be able to tell them what's going to be on their ballot. However, a lot of these tools ask for more contact information than they need so they can sell or give it to some political organization to pester you. FAIL. So Hey, Go Vote! will not ask for your address, your phone number or your email address.
 2. **Impartial.** Speaking of political organizations, many of them make vote-reminder tools or other things designed to get people to the polls. However, they're often paired with some political messaging. I'm not interested in telling people how to vote. I just want to give them enough warning that they can spend the time to do their own research before voting. So HGV should remain politically neutral. Ideally any candidate should feel confident suggesting that voters sign up for it whether they're a Democrat, a Republican, a Communist or a member of the People's Party For Building a Zipline From The Moon to Pittsburg.
 3. **Easy.** If this isn't easy as shit, no one will sign up. Period. Ideally, the sign up process should be just clicking the follow button on Twitter. Not "as easy as", but literally just clikcing that button.
+
+## Contributing
+
+1. Fork it.
+2. Feature branch.
+3. Tests are awesome.
+4. Pull request.
+
+When in doubt, you could create an issue on Github.
