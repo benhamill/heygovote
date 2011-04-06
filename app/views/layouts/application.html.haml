@@ -6,14 +6,24 @@
     = javascript_include_tag :defaults
     = csrf_meta_tag
   %body
-    %h1 Hey, Go Vote!
+    #container.row
+      .column.grid_12
+        #header.row
+          .column.grid_12
+            %h1 Hey, Go Vote!
 
-    #notifications
-      - if notice
-        #flash-notice
-          = notice
-      - if alert
-        #flash-alert
-          = alert
+          #notifications.column.grid_12
+            - if notice
+              #flash-notice
+                = notice
+            - if alert
+              #flash-alert
+                = alert
 
-    = yield
+        #main.row
+          .column.grid_14
+            = yield
+
+        #footer.row
+          .column.grid_12
+            %p &copy; 2011 Ben Hamill, or whatever.

@@ -72,3 +72,11 @@ input {
 input[type="submit"] {
   color: $text-color;
 }
+
+#footer {
+  p {
+    text-align: center;
+    font-size: 0.8em;
+    color: lighten($text-color, 15%);
+  }
+}
