@@ -50,6 +50,7 @@ GEM
       treetop (~> 1.4.8)
     mime-types (1.16)
     orm_adapter (0.0.4)
+    pg (0.10.1)
     polyglot (0.3.1)
     rack (1.2.2)
     rack-mount (0.6.14)
@@ -97,5 +98,6 @@ DEPENDENCIES
   devise
   haml
   jquery-rails
+  pg
   rails (= 3.0.6)
   rspec-rails
