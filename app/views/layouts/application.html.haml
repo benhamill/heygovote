@@ -1,17 +1,19 @@
 !!!
 %html
-%head
-  %title Hey, Go Vote!
-  = stylesheet_link_tag :all
-  = javascript_include_tag :defaults
-  = csrf_meta_tag 
-%body
-  %h1 Hey, Go Vote!
-  #notifications
-    - if notice
-      #flash-notice
-        = notice
-    - if alert
-      #flash-alert
-        = alert
-  = yield
+  %head
+    %title Hey, Go Vote!
+    = stylesheet_link_tag :all
+    = javascript_include_tag :defaults
+    = csrf_meta_tag
+  %body
+    %h1 Hey, Go Vote!
+
+    #notifications
+      - if notice
+        #flash-notice
+          = notice
+      - if alert
+        #flash-alert
+          = alert
+
+    = yield
